@@ -1,0 +1,62 @@
+/* Importação de fontes */
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos por elemento */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #2c3e50;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #34495e;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Estilos por classe */
+.category {
+  font-weight: bold;
+  color: #2980b9;
+}
+
+/* Estilos por ID */
+#header {
+  background-color: #3498db;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+/* Estilos por atributo */
+a[href^="mailto"] {
+  color: #e74c3c;
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* Estilos de pseudo-classe */
+a:hover {
+  color: #c0392b;
+  text-decoration: underline;
+}
+
+/* Decoração e contraste */
+footer {
+  text-align: center;
+  font-family: "Lora", serif;
+  font-style: italic;
+  background-color: #ecf0f1;
+  padding: 10px;
+  margin-top: 20px;
+}
